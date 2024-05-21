@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce Aroma</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body id="body">
+    <header>
+
+        <div class="dropdown">
+            <button class="dropbtn">Menú</button>
+            <nav class="dropdown-content">
+                <a href="./pages/Quienes_somos.html">Quienes somos?</a>
+                <a href="./pages/Trabajo.html">Envia tu CV!</a>
+                <a href="./pages/Productos.html">Productos</a>
+                <a href="./pages/Ubicacion.html">Ubicanos</a>
+            </nav>
+
+            <div class="Busqueda">
+                <form action="/buscar" method="get">
+                    <input type="text" name="q" placeholder="Buscar...">
+                    <button type="submit">Buscar</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="Titulo">
+            <h1>Dulce Aroma</h1>
+        </div>
+
+        <div>
+            <img src="./Assets/IMG/Logo.png" alt="Logo" class="Logo">
+        </div>
+
+        <div class="ubicacion">
+            <p>Ingrese su ubicación:</p>
+            <input type="text" placeholder="Ubicación">
+            <button>Guardar</button>
+        </div>
+
+    </header>
+    <main>
+        <div>
+            <img src="./Assets/IMG/Stock.jpg" alt="Imagen representativa" class="ImagenStock">
+        </div>
+
+        <div class="texto">
+            <h2>En Panadería Dulce Aroma, nos enorgullecemos de ofrecer los productos de panadería más frescos y
+                deliciosos de la ciudad. <br> Desde nuestro pan recién horneado hasta nuestros pasteles decorativos,
+                cada
+                bocado está lleno de sabor y calidad artesanal.</h2>
+        </div>
+
+        <nav class="Links">
+            <div class="Titulos-links">
+                <span class="Texto1">Quienes somos?</span>
+                <span class="Texto2">Productos</span>
+                <span class="Texto3">Ubicacion</span>
+            </div>
+            <nav class="Quienes-somos-div">
+                <a href="./pages/Quienes_somos.html" class="LinkQuienesSomos"> <img src="./Assets/IMG/Quienes-somos.png"
+                        alt="Imagen-Quienes-somos" class="Quienes-somos-img">Quienes somos?</a>
+            </nav>
+            <nav class="Productos-div">
+                <a href="./pages/Productos.html" class="LinkProductos"> <img src="./Assets/IMG/Productos.jfif"
+                        alt="Productos-IMG" class="Producto-IMG">Productos</a>
+            </nav>
+            <nav class="Ubicaion-div">
+                <a href="./pages/ubicacion.html" class="LinkUbicacion"><img src="./Assets/IMG/Ubicacion-IMG.jpg"
+                        alt="Ubicacion-IMG" class="Ubicaion-IMG">Ubicacion</a>
+            </nav>
+        </nav>
+
+    </main>
+    <footer class="copyright">
+        <p>&copy; 2024 Dulce Aroma. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
